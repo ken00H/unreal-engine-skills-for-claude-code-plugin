@@ -57,6 +57,16 @@ Commit this to `.claude/settings.json` in the project that should use the plugin
 }
 ```
 
+### Install from local source (development / fork)
+
+To install directly from a local clone or fork:
+
+```
+/plugin marketplace add /path/to/unreal-engine-skills-for-claude-code
+/plugin install unreal-engine-skills-for-claude-code@unreal-engine-skills-for-claude-code
+```
+
+
 ## Verification
 
 1. Launch Unreal Editor, then run `ModelContextProtocol.StartServer` in the console to start the MCP server.
